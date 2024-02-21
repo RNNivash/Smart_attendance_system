@@ -1,22 +1,35 @@
+# Face Based Attendance System using Python and OpenCV
 
-# Face based attendance system using python and openCV
+Welcome to the Face Based Attendance System repository! This project utilizes Python and OpenCV for facial recognition and attendance management.
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) 
+## Steps to Follow
 
-### What steps you have to follow??
-- Download or clone my Repository to your device
-- type `pip install -r requirements.txt` in command prompt(this will install required package for project)
-- Create a `TrainingImage` folder in a project folder.
-- open `attendance.py` and `automaticAttendance.py`, change all the path accoriding to your system
-- Run `attandance.py` file
+1. **Download or Clone Repository**: Download or clone the repository to your local device.
 
-### Project flow & explaination
-- After you run the project you have to register your face so that system can identify you, so click on register new student
-- After you click a small window will pop up in that you have to enter you ID and name and then click on `Take Image` button
-- After clicking `Take Image` button A camera window will pop up and it will detect your Face and take upto 50 Images(you can change the number of Image it can take) and stored in the folder named `TrainingImage`. more you give the image to system, the better it will perform while recognising the face.
-- Then you have to click on `Train Image` button, It will train the model and convert all the Image into numeric format so that computer can understand. we are training the image so that next time when we will show the same face to the computer it will easily identify the face.
-- It will take some time(depends on you system).
-- After training model click on `Automatic Attendance` ,you have to enter the subject name and then it can fill attendace by your face using our trained model.
-- it will create `.csv` file for every subject you enter and seperate every `.csv` file accoriding the subject
-- You can view the attendance after clicking `View Attendance` button. It will show record in tabular format.
+2. **Install Requirements**: Open your command prompt and navigate to the project directory. Type `pip install -r requirements.txt` to install the required packages for the project.
+
+3. **Create TrainingImage Folder**: Create a folder named `TrainingImage` within the project directory. This folder will store images used for training the facial recognition model.
+
+4. **Update File Paths**: Open the `attendance.py` and `automaticAttendance.py` files and update all file paths according to your system configuration.
+
+5. **Run the Program**: Execute the `attendance.py` file to start the program.
+
+## Project Flow & Explanation
+
+1. **Register New Student**: Click on the "Register New Student" button to add a new student to the system. Enter the student's ID and name, then click on the "Take Image" button. The system will capture multiple images of the student's face and store them in the `TrainingImage` folder.
+
+2. **Train Image**: After capturing images for all students, click on the "Train Image" button. This will train the facial recognition model using the images stored in the `TrainingImage` folder.
+
+3. **Automatic Attendance**: Enter the subject name and click on the "Automatic Attendance" button. The system will use the trained model to recognize faces and mark attendance automatically. Attendance records will be stored in CSV files, with each subject having its own file.
+
+4. **View Attendance**: Click on the "View Attendance" button to view attendance records. Attendance data will be displayed in a tabular format.
+
+## Contact Information
+
+For any questions, feedback, or support, please feel free to reach out to the project maintainer:
+
+- **Maintainer**: Nivash R N
+- **LinkedIn**: [Nivash R N](https://www.linkedin.com/in/nivash-r-n-sns/)
+- **GitHub**: [Nivash R N](https://github.com/RNNivash)
+
+Thank you for your interest in the Face Based Attendance System project! We hope it proves to be useful for your needs.
