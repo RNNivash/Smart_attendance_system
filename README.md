@@ -23,6 +23,9 @@ Welcome to the Face Based Attendance System repository! This project utilizes Py
 3. **Automatic Attendance**: Enter the subject name and click on the "Automatic Attendance" button. The system will use the trained model to recognize faces and mark attendance automatically. Attendance records will be stored in CSV files, with each subject having its own file.
 
 4. **View Attendance**: Click on the "View Attendance" button to view attendance records. Attendance data will be displayed in a tabular format.
+   ![IMG_20240126_160525](https://github.com/RNNivash/Smart_attendance_system/assets/90308206/b9f10b73-50d0-4c6e-873f-a37824de44b4)
+
+
 
 ## Contact Information
 
